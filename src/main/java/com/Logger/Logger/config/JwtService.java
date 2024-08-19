@@ -1,4 +1,4 @@
-package config;
+package com.Logger.Logger.config;
 
 
 import java.security.Key;
@@ -31,11 +31,11 @@ public class JwtService {
 		return claimsResolver.apply(claims);
 	}
 
-	
-	
-	
-	
-	
+
+
+
+
+
 	public String generateToken(UserDetails userDetails) {
 		return generateToken(new HashMap<>(), userDetails);
 	}

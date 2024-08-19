@@ -1,15 +1,16 @@
-package auth;
+package com.Logger.Logger.auth;
 
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import config.JwtService;
+import com.Logger.Logger.config.JwtService;
+import com.Logger.Logger.user.Role;
+import com.Logger.Logger.user.User;
+import com.Logger.Logger.user.UserRepository;
+
 import lombok.RequiredArgsConstructor;
-import user.Role;
-import user.User;
-import user.UserRepository;
 
 @Service
 @RequiredArgsConstructor

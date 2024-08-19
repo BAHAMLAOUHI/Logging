@@ -1,4 +1,4 @@
-package config;
+package com.Logger.Logger.config;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package user;
+package com.Logger.Logger.user;
 
 public enum Role {
 	User,
